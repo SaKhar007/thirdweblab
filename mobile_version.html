@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Mobile Version</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: monospace, 'Courier New', Courier;
+            font-size: 18px;
+            background-color: rgb(69, 50, 46);
+            color: rgb(189, 181, 179);
+            margin: 0;
+            padding: 10px;
+            line-height: 1.5;
+        }
+
+
+        a {
+            color: rgb(189, 181, 179);
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 5px 0;
+        }
+        a:active, a:hover { color: rgb(190, 125, 128); }
+
+
+        header, footer, .block {
+            border: 1px solid rgb(189, 181, 179);
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: rgba(0,0,0,0.1);
+        }
+
+
+        ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        li {
+            border-bottom: 1px dashed rgb(189, 181, 179);
+            padding: 10px;
+        }
+        li:last-child { border-bottom: none; }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+
+
+        footer { text-align: center; }
+
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <p>Curabitur vel lacus sodales, hendrerit tortor sed, rutrum lorem. Integer iaculis pulvinar diam.</p>
+</header>
+
+<div class="main-container">
+    <div class="block nav-section">
+        <ul>
+            <li><a href="secondsite.html">Go to second page</a></li>
+            <li><a href="thirdpage.html">Cool bear</a></li>
+            <li><a href="https://www.youtube.com/" target ="_blank">Youtube</a></li>
+            <li><a href="https://www.twitch.tv/" target="_blank">Twitch</a></li>
+            <li><a href="https://open.spotify.com/" target="_blank">Spotify</a></li>
+        </ul>
+    </div>
+
+    <div class="block image-section">
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbF_w7t-3tCtKqchnU2CyQKRe50RTL-gCmpQ&s" alt="skebob" usemap="#skebob">
+        <map name="skebob">
+            <area shape="rect" coords="83,69,92,79" href="https://ecampus.kpi.ua/uk" target="_blank">
+            <area shape="rect" coords="100,64,122,76" href="https://www.dota2.com/home" target="_blank">
+        </map>
+        <p style="text-align: center; font-size: 12px;">(Tap specific areas on image)</p>
+    </div>
+
+    <div class="block text-content">
+        <p>Nunc tempor molestie semper. Sed eget lacinia diam, vel porta velit. Mauris sodales condimentum ligula in laoreet.</p>
+    </div>
+
+    <div class="block text-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod necessitatibus magni ea, ipsum sequi!</p>
+    </div>
+
+    <div class="block text-content">
+        <p>Vivamus pretium sed urna eu porta. Pellentesque et magna lobortis, sollicitudin neque eget.</p>
+    </div>
+
+    <div class="block text-content">
+        <p>Nam tellus sapien, dictum sed enim ut, imperdiet congue risus. Ut consequat nibh sed ultrices bibendum.</p>
+    </div>
+</div>
+
+<footer>
+    <p>19.09.2025</p>
+</footer>
+
+</body>
+</html>
